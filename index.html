@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Budget Tracker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Budget Tracker</h1>
+	</header>
+
+	<main>
+		<section class="income">
+			<h2>Income</h2>
+			<input type="text" placeholder="Enter income amount">
+			<button>Add</button>
+			<ul id="income-list"></ul>
+			<p>Total income: <span id="total-income"></span></p>
+		</section>
+
+		<section class="expenses">
+			<h2>Expenses</h2>
+			<input type="text" placeholder="Enter expense amount">
+			<button>Add</button>
+			<ul id="expense-list"></ul>
+			<p>Total expenses: <span id="total-expenses"></span></p>
+		</section>
+
+		<section class="summary">
+			<h2>Summary</h2>
+			<p>Remaining budget: <span id="remaining-budget"></span></p>
+		</section>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>
